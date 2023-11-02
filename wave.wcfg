@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Put_Your_Temp_Files_Here/CWLab11/JetSki_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="jetski" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/jetski/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/rsrx" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rsrx</obj_property>
+      <obj_property name="ObjectShortName">rsrx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/vgared" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vgared[2:0]</obj_property>
+      <obj_property name="ObjectShortName">vgared[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/vgagreen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vgagreen[2:0]</obj_property>
+      <obj_property name="ObjectShortName">vgagreen[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/vgablue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vgablue[1:0]</obj_property>
+      <obj_property name="ObjectShortName">vgablue[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/timer_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer_reg[19:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_reg[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/timer_next" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">timer_next[19:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_next[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/read_input" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_input</obj_property>
+      <obj_property name="ObjectShortName">read_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/jetski/timer_size" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">timer_size</obj_property>
+      <obj_property name="ObjectShortName">timer_size</obj_property>
+   </wvobject>
+</wave_config>

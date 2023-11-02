@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Put_Your_Temp_Files_Here\CWLab11\JetSki.ncd
+OUTFILE=D:\Put_Your_Temp_Files_Here\CWLab11\JetSki.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\Put_Your_Temp_Files_Here\CWLab11
+LICENSE=ISE
+USER_INFO=174672765_175170704_209411003_003
